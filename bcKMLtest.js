@@ -1,0 +1,10 @@
+var bcKMLTest = {
+"type": "FeatureCollection",
+"name": "Temporary Places",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Chestnut Hill Reservoir", "description": "Water! " }, "geometry": { "type": "Point", "coordinates": [ -71.160451098751224, 42.335235738372397 ] } },
+{ "type": "Feature", "properties": { "Name": "Football!", "description": "Go Eagles!" }, "geometry": { "type": "Point", "coordinates": [ -71.166387763840049, 42.335024576048127 ] } },
+{ "type": "Feature", "properties": { "Name": "Basketball and Hockey", "description": "Go Sports!" }, "geometry": { "type": "Point", "coordinates": [ -71.16777265141657, 42.335122222222218 ] } }
+]
+}

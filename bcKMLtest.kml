@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bcKMLtest.kml</name>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Temporary Places</name>
+		<Placemark>
+			<name>Chestnut Hill Reservoir</name>
+			<description>Water! </description>
+			<LookAt>
+				<longitude>-71.15879812074569</longitude>
+				<latitude>42.32924164482571</latitude>
+				<altitude>0</altitude>
+				<heading>-16.48813900001646</heading>
+				<tilt>6.749733655720171</tilt>
+				<range>8059.486716813912</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.16045109875122,42.3352357383724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Football!</name>
+			<description>Go Eagles!</description>
+			<LookAt>
+				<longitude>-71.16403790891093</longitude>
+				<latitude>42.33638665814873</latitude>
+				<altitude>0</altitude>
+				<heading>-16.48788370251244</heading>
+				<tilt>10.69131449829344</tilt>
+				<range>1702.229617481325</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.16638776384005,42.33502457604813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Basketball and Hockey</name>
+			<description>Go Sports!</description>
+			<LookAt>
+				<longitude>-71.16683649355511</longitude>
+				<latitude>42.33554702162058</latitude>
+				<altitude>0</altitude>
+				<heading>-16.48869211975632</heading>
+				<tilt>10.6913144982932</tilt>
+				<range>1113.968010689964</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.16777265141657,42.33512222222222,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
